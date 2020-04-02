@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "name": "progress",
+  "version": "0.0.1",
+  "main": "./Progress.vue",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Liu Chaofan",
+    "email": "lcfme@sina.com"
+  }
+}
