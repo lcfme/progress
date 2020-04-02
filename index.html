@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script>
+      (function() {
+        var windowWidth = window.innerWidth;
+        document.documentElement.style.fontSize =
+          window.innerWidth / 7.5 + "px";
+      })();
+    </script>
   </head>
   <body style="background-color: #000;">
     <div id="app"></div>

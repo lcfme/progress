@@ -1,10 +1,5 @@
 <template>
-  <svg
-    version="1.1"
-    xmlns="http://www.w3.org/2000/svg"
-    :height="size"
-    :width="size"
-  >
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" :viewBox="`0 0 ${size} ${size}`">
     <circle
       :cx="cX"
       :cy="cY"

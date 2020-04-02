@@ -20,7 +20,7 @@ new Vue({
     return h(Progress, {
       domProps: {
         style:
-          "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"
+          "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 1.4rem; width: 1.4rem;"
       },
       props: {
         size: 70,
